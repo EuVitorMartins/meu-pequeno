@@ -1,0 +1,1499 @@
+/* =====================================
+RESET
+===================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f8ebd0;
+    color: #111;
+}
+
+
+img {
+
+    max-width: 100%;
+    display: block;
+
+}
+
+
+.container {
+
+    width: 92%;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+
+
+
+
+/* =====================================
+BARRA SUPERIOR
+===================================== */
+
+
+.top-offer {
+
+    background: #4b35c9;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 10px 15px;
+    max-width: 360px;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+/* =====================================
+HERO
+===================================== */
+
+
+.hero {
+
+    text-align: center;
+    padding: 25px 0 50px;
+
+}
+
+
+
+.hero h1 {
+
+    font-size: 38px;
+    line-height: 1.15;
+    font-weight: 900;
+    max-width: 700px;
+    margin: 20px auto;
+
+}
+
+
+
+.hero h1 span {
+
+    background: #ff7b18;
+    color: white;
+    padding: 0 6px;
+
+}
+
+
+
+.hero-subtitle {
+
+    max-width: 650px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.4;
+
+}
+
+
+
+
+.product-image {
+
+    max-width: 420px;
+    margin: 30px auto;
+
+}
+
+
+
+
+.price-area {
+
+    text-align: center;
+
+}
+
+
+
+.old-price {
+
+    color: red;
+    text-decoration: line-through;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+
+.price-area h2 {
+
+    background: #ff1010;
+    color: white;
+    display: inline-block;
+    font-size: 42px;
+    font-weight: 900;
+    padding: 5px 20px;
+    margin: 5px 0;
+
+}
+
+
+
+.complete-price {
+
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+
+
+
+
+.main-button {
+    text-decoration: none;
+    display: block;
+    max-width: 340px;
+    margin: 25px auto;
+    background: #2c8b12;
+    color: white;
+    padding: 18px;
+    font-weight: 900;
+    font-size: 18px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0 #000;
+
+}
+
+
+
+.social-proof {
+
+    max-width: 340px;
+    margin: auto;
+    background: white;
+    border: 1px solid #3c8b20;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #277000;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+COMO FUNCIONA
+===================================== */
+
+
+.how {
+
+    padding: 60px 0;
+
+}
+
+
+
+.how h2 {
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+
+
+
+.how-card {
+
+    background: white;
+    border: 1px solid #222;
+    padding: 30px 25px;
+    margin: 18px auto;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+
+
+.icon {
+
+    font-size: 45px;
+    margin-bottom: 15px;
+
+}
+
+
+
+.how-card h3 {
+
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+
+
+.benefit-strip {
+
+    max-width: 600px;
+    margin: auto;
+    background: #ff7417;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: 800;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+/* =====================================
+KIT
+===================================== */
+
+
+.content-kit {
+
+    background: white;
+    padding: 60px 0;
+
+}
+
+
+.content-kit h2 {
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+
+}
+
+
+
+.content-kit>p {
+
+    text-align: center;
+    margin: 15px;
+
+}
+
+
+
+.kit-grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+
+
+.kit-card {
+
+    border: 1px solid #222;
+    background: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+
+.kit-card img {
+    width: 100%;
+    height: 83%;
+    object-fit: cover;
+
+}
+
+
+
+.kit-card h3 {
+
+    margin: 15px 0;
+    font-weight: 900;
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+   O QUE TEM DENTRO DO KIT
+===================================== */
+
+
+.content-kit {
+
+    background: #f8ebd0;
+    padding: 60px 20px;
+
+}
+
+
+
+.kit-wrapper {
+
+    max-width: 720px;
+    margin: auto;
+    background: #f47721;
+    padding: 20px;
+    border-top: 4px solid #000;
+
+}
+
+
+
+.kit-wrapper h2 {
+
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+}
+
+
+
+.kit-badge {
+
+    background: white;
+    border: 2px solid #000;
+
+    max-width: 350px;
+    margin: 0 auto 25px;
+
+    padding: 10px;
+
+    text-align: center;
+
+    color: #f47721;
+
+    font-weight: 900;
+
+}
+
+
+
+
+
+.kit-item {
+
+    background: white;
+
+    border: 3px solid #000;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.kit-item h3 {
+
+    text-align: center;
+
+    color: #f47721;
+
+    font-size: 20px;
+
+    font-weight: 900;
+
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+.kit-image {
+
+    background: #edd7b8;
+
+    border: 2px solid #000;
+
+    min-height: 220px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+
+
+.kit-image img {
+
+    max-width: 230px;
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+
+
+
+
+.kit-item p {
+
+    text-align: center;
+
+    color: #555;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+}
+
+
+
+
+
+
+/* MOBILE */
+
+@media(max-width:768px) {
+
+
+    .kit-wrapper h2 {
+
+        font-size: 28px;
+
+    }
+
+
+    .kit-item h3 {
+
+        font-size: 16px;
+
+    }
+
+
+    .kit-image {
+
+        min-height: 180px;
+
+    }
+
+
+    .kit-image img {
+
+        max-width: 170px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+   SEÇÃO PARA QUEM É
+===================================== */
+
+
+.audience {
+
+    background: #ffffff;
+    padding: 80px 20px;
+
+}
+
+
+
+.audience h2 {
+
+    text-align: center;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 15px;
+
+}
+
+
+
+.audience-subtitle {
+
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 45px;
+
+    font-size: 17px;
+    color: #555;
+
+}
+
+
+
+
+
+.audience-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    max-width: 950px;
+
+    margin: auto;
+
+}
+
+
+
+
+.audience-card {
+
+
+    background: #fff;
+
+    border-radius: 20px;
+
+    padding: 35px 25px;
+
+    text-align: center;
+
+
+    border: 2px solid #f1d9aa;
+
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, .08);
+
+
+    transition: .3s;
+
+
+}
+
+
+
+
+
+.audience-card:hover {
+
+
+    transform: translateY(-8px);
+
+
+    border-color: #ff7417;
+
+
+}
+
+
+
+
+.audience-icon {
+
+
+    width: 80px;
+
+    height: 80px;
+
+    background: #fff0d8;
+
+    border-radius: 50%;
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    font-size: 40px;
+
+
+    margin: 0 auto 20px;
+
+
+}
+
+
+
+
+.audience-card h3 {
+
+
+    font-size: 24px;
+
+    font-weight: 900;
+
+    margin-bottom: 12px;
+
+
+    color: #111;
+
+
+}
+
+
+
+
+.audience-card p {
+
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    color: #555;
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:768px) {
+
+
+    .audience h2 {
+
+        font-size: 28px;
+
+    }
+
+
+    .audience-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+}
+
+
+
+/* =========================
+CARROSSEL DEPOIMENTOS
+========================= */
+
+
+.depoimentos {
+
+    background: #f8ebd0;
+
+    padding: 60px 20px;
+
+}
+
+
+
+.depoimentos-container {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    text-align: center;
+
+}
+
+
+
+.depoimentos h2 {
+
+    font-size: 32px;
+
+    font-weight: 900;
+
+    color: #111;
+
+    margin-bottom: 35px;
+
+}
+
+
+
+
+.carousel {
+
+    overflow: hidden;
+
+}
+
+
+
+.carousel-track {
+
+    display: flex;
+
+    gap: 20px;
+
+    transition: .5s;
+
+}
+
+
+
+.depoimento-img {
+
+    min-width: 250px;
+
+    background: white;
+
+    padding: 10px;
+
+    border-radius: 15px;
+
+    box-shadow:
+
+        0 8px 20px rgba(0, 0, 0, .15);
+
+}
+
+
+
+.depoimento-img img {
+
+    width: 100%;
+
+    display: block;
+
+    border-radius: 10px;
+
+}
+
+
+
+
+.dots {
+
+    margin-top: 25px;
+
+}
+
+
+
+.dots span {
+
+    display: inline-block;
+
+    width: 10px;
+
+    height: 10px;
+
+    background: #ccc;
+
+    border-radius: 50%;
+
+    margin: 5px;
+
+}
+
+
+
+.dots .active {
+
+    background: #f47721;
+
+}
+
+
+
+
+@media(max-width:600px) {
+
+
+    .depoimento-img {
+
+        min-width: 85%;
+
+    }
+
+
+    .depoimentos h2 {
+
+        font-size: 25px;
+
+    }
+
+
+}
+
+
+
+
+
+
+/* =====================================
+ OFERTA ESTILO SALES PAGE
+===================================== */
+
+
+.offer {
+
+    background: #f8ebd0;
+    padding: 70px 20px;
+
+}
+
+
+
+.offer h2 {
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+
+}
+
+
+
+.offer-alert {
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.offer-boxes {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+
+}
+
+
+
+
+.offer-card {
+
+    background: white;
+    width: 360px;
+
+    border: 2px solid #222;
+
+    padding: 25px;
+
+    text-align: center;
+
+    position: relative;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .12);
+
+}
+
+
+
+
+.offer-title {
+
+    background: #ff7417;
+
+    color: white;
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    font-weight: 900;
+
+    margin-bottom: 15px;
+
+    font-size: 18px;
+
+}
+
+
+
+
+.old-price {
+
+    color: #ff0000;
+
+    text-decoration: line-through;
+
+    font-weight: 700;
+
+}
+
+
+
+.offer-card h3 {
+
+    font-size: 45px;
+
+    color: #ff5a00;
+
+    font-weight: 900;
+
+    margin: 10px 0;
+
+}
+
+
+
+
+.offer-card ul {
+
+    text-align: left;
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 25px 0;
+
+}
+
+
+
+.offer-card li {
+
+    font-size: 14px;
+
+    padding: 8px 0;
+
+    border-bottom: 1px dashed #ccc;
+
+    font-weight: 600;
+
+}
+
+
+
+.disabled {
+
+    color: #999;
+
+}
+
+
+
+
+.offer-card button {
+
+    width: 100%;
+
+    padding: 17px;
+
+    border: none;
+
+    background: #2c8b12;
+
+    color: white;
+
+    font-weight: 900;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 0 #176b08;
+
+}
+
+
+
+
+.small-text {
+
+    font-size: 12px;
+
+    margin-top: 15px;
+
+}
+
+
+
+
+
+
+
+/* PLANO COMPLETO */
+
+
+.featured-offer {
+
+    border: 4px solid #ffd000;
+
+    transform: scale(1.03);
+
+}
+
+
+
+.recommended {
+
+
+    position: absolute;
+
+    top: -18px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+
+    background: #ff7417;
+
+    color: white;
+
+
+    padding: 7px 20px;
+
+    font-size: 12px;
+
+    font-weight: 900;
+
+}
+
+
+
+.expert {
+
+
+    background: #ff7417;
+
+    color: white;
+
+    font-size: 12px;
+
+    padding: 8px;
+
+    font-weight: 800;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+
+.security {
+
+    display: flex;
+
+    gap: 5px;
+
+    margin-top: 15px;
+
+}
+
+
+
+.security div {
+
+    flex: 1;
+
+    border: 1px solid #222;
+
+    padding: 10px;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+@media(max-width:768px) {
+
+
+    .offer-boxes {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+
+    .offer-card {
+
+        width: 100%;
+
+    }
+
+
+
+    .featured-offer {
+
+        transform: none;
+
+    }
+
+
+}
+
+
+
+
+/* =====================================
+GARANTIA
+===================================== */
+
+
+.guarantee {
+
+    background: white;
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+FAQ
+===================================== */
+
+
+.faq {
+
+    padding: 60px 0;
+
+}
+
+
+.faq h2 {
+
+    text-align: center;
+    font-size: 32px;
+
+}
+
+
+
+.faq-item {
+
+    max-width: 650px;
+    margin: 15px auto;
+
+}
+
+
+
+.faq-item button {
+
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 18px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+
+
+.faq-item p {
+
+    background: white;
+    padding: 18px;
+    display: none;
+
+}
+
+
+
+
+
+
+
+/* =====================================
+FOOTER
+===================================== */
+
+
+footer {
+
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+MOBILE
+===================================== */
+
+
+@media(max-width:768px) {
+
+
+    .hero h1 {
+
+        font-size: 30px;
+
+    }
+
+
+
+    .hero-subtitle {
+
+        font-size: 15px;
+
+    }
+
+
+
+    .kit-grid,
+    .audience-grid,
+    .testimonial-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+    .plans {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+    .plan {
+
+        width: 100%;
+
+    }
+
+
+
+    .how h2,
+    .content-kit h2,
+    .bonus h2,
+    .offer h2 {
+
+        font-size: 26px;
+
+    }
+
+
+
+    .price-area h2 {
+
+        font-size: 36px;
+
+    }
+
+
+}
+
+/* ===============================
+POPUP SOCIAL PROOF
+================================ */
+
+
+.purchase-popup {
+
+    position: fixed;
+
+    bottom: 20px;
+
+    left: 20px;
+
+    width: 280px;
+
+    background: white;
+
+    border: 2px solid #222;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, .25);
+
+
+    z-index: 9999;
+
+
+    transform: translateX(-120%);
+
+    transition: .5s;
+
+
+}
+
+
+.purchase-popup.active {
+
+    transform: translateX(0);
+
+}
+
+
+
+.popup-icon {
+
+    font-size: 28px;
+
+}
+
+
+
+.popup-content {
+
+    flex: 1;
+
+}
+
+
+.popup-content strong {
+
+    font-size: 14px;
+
+}
+
+
+
+.popup-content p {
+
+    margin: 2px 0;
+
+    font-size: 13px;
+
+}
+
+
+
+.popup-content small {
+
+    font-size: 11px;
+
+    color: #777;
+
+}
+
+
+
+.purchase-popup button {
+
+    border: none;
+
+    background: none;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+}
+
+
+
+
+
+@media(max-width:600px) {
+
+    .purchase-popup {
+
+        left: 10px;
+
+        bottom: 15px;
+
+        width: 270px;
+
+    }
+
+
+}
