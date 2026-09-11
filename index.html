@@ -68,7 +68,8 @@ HERO
 
             <h1>
 
-                O método em <span>4 passos simples</span> que ajuda seu filho a aprender a ler e acelera a alfabetização
+                O método em <br><span>4 passos simples</span><br> que ajuda seu filho a aprender a ler e acelera a
+                alfabetização
 
             </h1>
 
@@ -121,7 +122,7 @@ HERO
 
                 <p class="complete-price">
 
-                    Kit Completo por R$13,90
+                    Kit Completo por R$14,90
 
                 </p>
 
@@ -293,7 +294,59 @@ COMO FUNCIONA
 
 
 
+    <section class="vsl-section">
 
+        <div class="container">
+
+            <h2>
+                Assista e descubra como transformar a alfabetização em uma rotina simples e divertida
+            </h2>
+
+
+            <p class="vsl-subtitle">
+                Veja por dentro como funciona o método e como você pode aplicar as atividades com seu filho.
+            </p>
+
+
+
+            <div class="video-container">
+
+                <video id="vslVideo" preload="metadata" controls playsinline>
+
+                    <source src="vsl.mp4" type="video/mp4">
+
+                    Seu navegador não suporta vídeo.
+
+                </video>
+
+
+
+                <div class="play-overlay" id="playOverlay">
+
+                    <button onclick="playVSL()">
+
+                        ▶ Clique para assistir
+
+                    </button>
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <a href="#oferta" class="main-button">
+
+                Quero garantir meu Kit Completo
+
+            </a>
+
+
+        </div>
+
+    </section>
 
 
 
@@ -686,7 +739,7 @@ BÔNUS EXCLUSIVOS
 
             <!-- BÔNUS 02 -->
 
-  <!--
+            <!--
             <div class="kit-item">
 
 
@@ -1072,9 +1125,9 @@ OFERTA
 
 
 
-                    <a href="https://checkout.meu-pequeno-leitor.shop/VCCL1O8SD8OG" class="main-button">
+                    <a href="#" class="main-button basic-offer-btn">
                         Adquirir Plano Básico
-                    </a>
+                    </a>>
 
 
 
@@ -1130,7 +1183,7 @@ OFERTA
 
                     <h3>
 
-                        R$13,90
+                        R$14,90
 
                     </h3>
 
@@ -1153,7 +1206,7 @@ OFERTA
 
                         <li>✅ Bônus 01 — Apostila extra</li>
 
-                          <!--<li>✅ Bônus 02 — Jogos educativos</li>-->
+                        <!--<li>✅ Bônus 02 — Jogos educativos</li>-->
 
                         <li>✅ Bônus 02 — Grupo VIP - Novas Atividades </li>
 
@@ -1424,6 +1477,80 @@ FOOTER
 
     </div>
 
+    <!-- POPUP UPGRADE KIT COMPLETO -->
+
+    <div class="upgrade-popup" id="upgradePopup">
+
+        <div class="upgrade-box">
+
+            <button class="close-upgrade" onclick="closeUpgrade()">
+                ×
+            </button>
+
+
+            <h2>
+                Espere! Temos uma condição especial 🎁
+            </h2>
+
+
+            <p class="upgrade-highlight">
+                Você está levando o Plano Básico...
+            </p>
+
+
+            <p>
+                Mas por apenas uma diferença especial,
+                você pode desbloquear o <strong>Kit Completo</strong>
+                com todos os bônus inclusos.
+            </p>
+
+
+            <div class="upgrade-price">
+
+                <span>De R$14,90</span>
+
+                <strong>
+                    R$10,90
+                </strong>
+
+            </div>
+
+
+            <ul>
+
+                <li>✅ +1.000 atividades educativas</li>
+                <li>✅ Apostilas completas</li>
+                <li>✅ Matemática inicial</li>
+                <li>✅ Grupo VIP</li>
+                <li>✅ Bônus exclusivos</li>
+
+            </ul>
+
+
+            <a href="https://checkout.meu-pequeno-leitor.shop/VCCL1O8SD922" class="upgrade-button">
+
+                Quero o Kit Completo por R$10,90
+
+            </a>
+
+
+            <button class="continue-basic" onclick="continueBasic()">
+
+                Continuar com Plano Básico
+
+            </button>
+
+
+        </div>
+
+    </div>
+    <!-- BOTÃO FIXO MOBILE -->
+
+<a href="#oferta" class="mobile-buy-button" id="mobileBuyButton">
+
+    🛒 Quero garantir meu Kit Completo
+
+</a>
 </body>
 
 </html>

@@ -56,11 +56,108 @@ faqButtons.forEach((button)=>{
 
 });
 
+// =================================
+// POPUP UPGRADE PLANO BÁSICO
+// =================================
+
+
+const basicButton = document.querySelector(".basic-offer-btn");
+
+let basicCheckout =
+"https://checkout.meu-pequeno-leitor.shop/VCCL1O8SD8OG";
+
+
+if(basicButton){
+
+
+    basicButton.addEventListener("click",function(e){
+
+        e.preventDefault();
+
+        document
+        .getElementById("upgradePopup")
+        .classList.add("active");
+
+
+    });
+
+
+}
+
+
+
+function continueBasic(){
+
+
+    window.location.href = basicCheckout;
+
+
+}
+
+
+
+function closeUpgrade(){
+
+
+    document
+    .getElementById("upgradePopup")
+    .classList.remove("active");
+
+
+}
 
 
 
 
+function playVSL(){
 
+    const video = document.getElementById("vslVideo");
+
+    const overlay = document.getElementById("playOverlay");
+
+
+    overlay.style.display="none";
+
+    video.play();
+
+}
+
+// =================================
+// BOTÃO FIXO APÓS SEÇÃO DO KIT
+// =================================
+
+
+const mobileButton = document.getElementById("mobileBuyButton");
+
+const kitSection = document.querySelector(".content-kit");
+
+
+window.addEventListener("scroll",()=>{
+
+
+    if(!kitSection || !mobileButton) return;
+
+
+    const position = kitSection.getBoundingClientRect();
+
+
+
+    if(position.bottom < 0){
+
+
+        mobileButton.classList.add("active");
+
+
+    }else{
+
+
+        mobileButton.classList.remove("active");
+
+
+    }
+
+
+});
 
 
 

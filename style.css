@@ -1,6 +1,10 @@
 /* =====================================
-RESET
+   MEU PEQUENO LEITOR
+   PREMIUM EDUCATIONAL STYLE
 ===================================== */
+
+
+/* RESET */
 
 * {
     margin: 0;
@@ -17,23 +21,33 @@ html {
 body {
 
     font-family: 'Poppins', Arial, sans-serif;
-    background: #f8ebd0;
-    color: #111;
+
+    background: #fffaf2;
+
+    color: #2b2b2b;
+
+    line-height: 1.5;
+
 }
+
 
 
 img {
 
     max-width: 100%;
+
     display: block;
 
 }
 
 
+
 .container {
 
     width: 92%;
-    max-width: 900px;
+
+    max-width: 1100px;
+
     margin: auto;
 
 }
@@ -41,22 +55,30 @@ img {
 
 
 
-
 /* =====================================
-BARRA SUPERIOR
+   BARRA SUPERIOR
 ===================================== */
 
 
 .top-offer {
 
-    background: #4b35c9;
-    color: white;
+    background: #f6b84a;
+
+    color: #513300;
+
     text-align: center;
-    font-size: 13px;
-    font-weight: 800;
-    padding: 10px 15px;
-    max-width: 360px;
-    margin: auto;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    padding: 14px 20px;
+
+    max-width: 520px;
+
+    margin: 25px auto 0;
+
+    border-radius: 50px;
 
 }
 
@@ -64,29 +86,35 @@ BARRA SUPERIOR
 
 
 
-
-
 /* =====================================
-HERO
+   HERO
 ===================================== */
 
 
 .hero {
 
     text-align: center;
-    padding: 25px 0 50px;
+
+    padding: 70px 0 90px;
 
 }
 
 
 
+
 .hero h1 {
 
-    font-size: 38px;
+    font-size: 48px;
+    text-transform: uppercase;
     line-height: 1.15;
+
     font-weight: 900;
-    max-width: 700px;
-    margin: 20px auto;
+
+    max-width: 850px;
+
+    margin: 30px auto;
+
+    letter-spacing: -1px;
 
 }
 
@@ -94,408 +122,29 @@ HERO
 
 .hero h1 span {
 
-    background: #ff7b18;
+    background: #ff9f43;
+
     color: white;
-    padding: 0 6px;
+
+    padding: 4px 14px;
+
+    border-radius: 12px;
 
 }
+
+
 
 
 
 .hero-subtitle {
 
-    max-width: 650px;
-    margin: 20px auto;
-    font-size: 16px;
-    line-height: 1.4;
-
-}
-
-
-
-
-.product-image {
-
-    max-width: 420px;
-    margin: 30px auto;
-
-}
-
-
-
-
-.price-area {
-
-    text-align: center;
-
-}
-
-
-
-.old-price {
-
-    color: red;
-    text-decoration: line-through;
-    font-weight: 700;
-    font-size: 14px;
-
-}
-
-
-
-.price-area h2 {
-
-    background: #ff1010;
-    color: white;
-    display: inline-block;
-    font-size: 42px;
-    font-weight: 900;
-    padding: 5px 20px;
-    margin: 5px 0;
-
-}
-
-
-
-.complete-price {
-
-    font-weight: 700;
-    margin-top: 10px;
-
-}
-
-
-
-
-.main-button {
-    text-decoration: none;
-    display: block;
-    max-width: 340px;
-    margin: 25px auto;
-    background: #2c8b12;
-    color: white;
-    padding: 18px;
-    font-weight: 900;
-    font-size: 18px;
-    border: 2px solid #000;
-    box-shadow: 5px 5px 0 #000;
-
-}
-
-
-
-.social-proof {
-
-    max-width: 340px;
-    margin: auto;
-    background: white;
-    border: 1px solid #3c8b20;
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 13px;
-    color: #277000;
-    font-weight: 700;
-
-}
-
-
-
-
-
-
-
-
-/* =====================================
-COMO FUNCIONA
-===================================== */
-
-
-.how {
-
-    padding: 60px 0;
-
-}
-
-
-
-.how h2 {
-
-    text-align: center;
-    font-size: 32px;
-    font-weight: 900;
-    margin-bottom: 30px;
-
-}
-
-
-
-.how-card {
-
-    background: white;
-    border: 1px solid #222;
-    padding: 30px 25px;
-    margin: 18px auto;
-    max-width: 600px;
-    text-align: center;
-
-}
-
-
-
-.icon {
-
-    font-size: 45px;
-    margin-bottom: 15px;
-
-}
-
-
-
-.how-card h3 {
-
-    font-size: 20px;
-    font-weight: 900;
-
-}
-
-
-
-.benefit-strip {
-
-    max-width: 600px;
-    margin: auto;
-    background: #ff7417;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-weight: 800;
-    font-size: 14px;
-
-}
-
-
-
-
-
-
-
-/* =====================================
-KIT
-===================================== */
-
-
-.content-kit {
-
-    background: white;
-    padding: 60px 0;
-
-}
-
-
-.content-kit h2 {
-
-    text-align: center;
-    font-size: 32px;
-    font-weight: 900;
-
-}
-
-
-
-.content-kit>p {
-
-    text-align: center;
-    margin: 15px;
-
-}
-
-
-
-.kit-grid {
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-
-}
-
-
-
-.kit-card {
-
-    border: 1px solid #222;
-    background: white;
-    padding: 20px;
-    text-align: center;
-
-}
-
-
-
-.kit-card img {
-    width: 100%;
-    height: 83%;
-    object-fit: cover;
-
-}
-
-
-
-.kit-card h3 {
-
-    margin: 15px 0;
-    font-weight: 900;
-
-}
-
-
-
-
-
-
-
-
-/* =====================================
-   O QUE TEM DENTRO DO KIT
-===================================== */
-
-
-.content-kit {
-
-    background: #f8ebd0;
-    padding: 60px 20px;
-
-}
-
-
-
-.kit-wrapper {
-
     max-width: 720px;
-    margin: auto;
-    background: #f47721;
-    padding: 20px;
-    border-top: 4px solid #000;
 
-}
-
-
-
-.kit-wrapper h2 {
-
-    color: white;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 1.2;
-    margin-bottom: 20px;
-
-}
-
-
-
-.kit-badge {
-
-    background: white;
-    border: 2px solid #000;
-
-    max-width: 350px;
-    margin: 0 auto 25px;
-
-    padding: 10px;
-
-    text-align: center;
-
-    color: #f47721;
-
-    font-weight: 900;
-
-}
-
-
-
-
-
-.kit-item {
-
-    background: white;
-
-    border: 3px solid #000;
-
-    padding: 15px;
-
-    margin-bottom: 20px;
-
-}
-
-
-
-
-.kit-item h3 {
-
-    text-align: center;
-
-    color: #f47721;
+    margin: 25px auto;
 
     font-size: 20px;
-
-    font-weight: 900;
-
-    margin-bottom: 15px;
-
-    text-transform: uppercase;
-
-}
-
-
-
-
-
-.kit-image {
-
-    background: #edd7b8;
-
-    border: 2px solid #000;
-
-    min-height: 220px;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    padding: 20px;
-
-    margin-bottom: 15px;
-
-}
-
-
-
-
-
-.kit-image img {
-
-    max-width: 230px;
-
-    width: 100%;
-
-    height: auto;
-
-}
-
-
-
-
-
-.kit-item p {
-
-    text-align: center;
 
     color: #555;
-
-    font-size: 14px;
 
     line-height: 1.6;
 
@@ -505,38 +154,614 @@ KIT
 
 
 
+/* IMAGEM PRODUTO */
 
-/* MOBILE */
+.product-image {
 
-@media(max-width:768px) {
+    max-width: 560px;
 
+    margin: 50px auto;
 
-    .kit-wrapper h2 {
-
-        font-size: 28px;
-
-    }
+}
 
 
-    .kit-item h3 {
 
-        font-size: 16px;
+.product-image img {
 
-    }
+    width: 100%;
 
+    filter: drop-shadow(0 20px 35px rgba(0, 0, 0, .12));
 
-    .kit-image {
-
-        min-height: 180px;
-
-    }
+}
 
 
-    .kit-image img {
 
-        max-width: 170px;
 
-    }
+/* =====================================
+   PREÇO
+===================================== */
+
+
+.price-area {
+
+    text-align: center;
+
+    margin-top: 30px;
+
+}
+
+
+
+.old-price {
+
+    color: #d9534f;
+
+    text-decoration: line-through;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+}
+
+
+
+.price-area h2 {
+
+    display: inline-block;
+
+    background: #ff8c42;
+
+    color: white;
+
+    font-size: 55px;
+
+    font-weight: 900;
+
+    padding: 8px 35px;
+
+    border-radius: 20px;
+
+    margin: 10px 0;
+
+    box-shadow: 0 12px 25px rgba(255, 140, 66, .25);
+
+}
+
+
+
+
+.complete-price {
+
+    font-weight: 700;
+
+    color: #555;
+
+    font-size: 17px;
+
+}
+
+
+
+
+/* =====================================
+   BOTÃO PRINCIPAL
+===================================== */
+
+
+.main-button {
+
+
+    text-decoration: none;
+
+    display: block;
+
+    max-width: 390px;
+
+    margin: 35px auto;
+
+    background: #35a853;
+
+    color: white;
+
+    padding: 20px 25px;
+
+    border-radius: 50px;
+
+    font-size: 19px;
+
+    font-weight: 900;
+
+    box-shadow: 0 12px 25px rgba(53, 168, 83, .25);
+
+    transition: .3s;
+
+}
+
+
+
+.main-button:hover {
+
+    transform: translateY(-3px);
+
+}
+
+
+
+
+
+/* =====================================
+   PROVA SOCIAL
+===================================== */
+
+
+.social-proof {
+
+
+    max-width: 450px;
+
+    margin: auto;
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 18px;
+
+    font-size: 15px;
+
+    color: #397a35;
+
+    font-weight: 700;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .06);
+
+    border: 1px solid #e7dccb;
+
+}
+
+
+
+
+
+
+
+/* =====================================
+   COMO FUNCIONA
+===================================== */
+
+
+.how {
+
+    padding: 100px 0;
+
+    background: white;
+
+}
+
+
+
+
+
+.how h2 {
+
+    text-align: center;
+
+    font-size: 38px;
+
+    font-weight: 900;
+
+    color: #333;
+
+    margin-bottom: 50px;
+
+}
+
+
+
+
+
+.how-card {
+
+
+    background: #fffaf2;
+
+    border: 1px solid #eadcc8;
+
+    padding: 40px 30px;
+
+    margin: 25px auto;
+
+    max-width: 650px;
+
+    text-align: center;
+
+    border-radius: 28px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .06);
+
+}
+
+
+
+
+
+.icon {
+
+    font-size: 55px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.how-card h3 {
+
+    font-size: 22px;
+
+    font-weight: 900;
+
+    color: #333;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.how-card p {
+
+    color: #666;
+
+    font-size: 16px;
+
+}
+
+
+
+
+
+.benefit-strip {
+
+
+    max-width: 700px;
+
+    margin: 40px auto 0;
+
+    background: #ff9f43;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    font-weight: 800;
+
+    font-size: 15px;
+
+
+}
+
+/* =====================================
+   KIT PRINCIPAL
+===================================== */
+
+
+.content-kit {
+
+    background: #fffaf2;
+
+    padding: 100px 20px;
+
+}
+
+
+
+
+
+.content-kit h2 {
+
+    text-align: center;
+
+    font-size: 42px;
+
+    font-weight: 900;
+
+    color: #2f2f2f;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+.content-kit>p {
+
+    text-align: center;
+
+    max-width: 700px;
+
+    margin: 0 auto 60px;
+
+    color: #666;
+
+    font-size: 18px;
+
+}
+
+
+
+
+
+.kit-grid {
+
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    max-width: 1000px;
+
+    margin: auto;
+
+
+}
+
+
+
+
+.kit-card {
+
+
+    background: white;
+
+    border-radius: 25px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border: 1px solid #eadcc8;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .07);
+
+    transition: .3s;
+
+
+}
+
+
+
+
+
+.kit-card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+
+
+
+.kit-card img {
+
+
+    width: 100%;
+
+    max-height: 280px;
+
+    object-fit: contain;
+
+    margin-bottom: 25px;
+
+
+}
+
+
+
+
+
+.kit-card h3 {
+
+    font-size: 22px;
+
+    font-weight: 900;
+
+    color: #333;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+
+
+.kit-card p {
+
+    color: #666;
+
+}
+
+
+
+
+
+
+
+/* =====================================
+   KIT COMPLETO PREMIUM
+===================================== */
+
+
+
+.kit-wrapper {
+
+
+    max-width: 850px;
+
+    margin: auto;
+
+    background: white;
+
+    padding: 50px 35px;
+
+    border-radius: 35px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .08);
+
+
+}
+
+
+
+
+
+.kit-wrapper h2 {
+
+
+    text-align: center;
+
+    color: #333;
+
+    font-size: 40px;
+
+    font-weight: 900;
+
+    margin-bottom: 35px;
+
+
+}
+
+
+
+
+
+.kit-badge {
+
+
+    background: #fff0d6;
+
+    color: #e87821;
+
+    border: 1px solid #f3c48d;
+
+    max-width: 400px;
+
+    margin: 0 auto 40px;
+
+    padding: 15px;
+
+    border-radius: 50px;
+
+    text-align: center;
+
+    font-weight: 900;
+
+
+}
+
+
+
+
+
+.kit-item {
+
+
+    background: #fffaf2;
+
+    border-radius: 25px;
+
+    padding: 35px;
+
+    margin-bottom: 30px;
+
+    border: 1px solid #eadcc8;
+
+
+}
+
+
+
+
+
+.kit-item h3 {
+
+
+    text-align: center;
+
+    color: #e87821;
+
+    font-size: 23px;
+
+    font-weight: 900;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+
+
+.kit-image {
+
+
+    background: white;
+
+    border-radius: 25px;
+
+    padding: 30px;
+
+    min-height: 260px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+
+
+.kit-image img {
+
+
+    max-width: 320px;
+
+    width: 100%;
+
+
+}
+
+
+
+
+.kit-item p {
+
+
+    text-align: center;
+
+    color: #666;
+
+    font-size: 16px;
+
+    line-height: 1.7;
 
 
 }
@@ -549,38 +774,54 @@ KIT
 
 
 /* =====================================
-   SEÇÃO PARA QUEM É
+   PARA QUEM É
 ===================================== */
+
 
 
 .audience {
 
-    background: #ffffff;
-    padding: 80px 20px;
+
+    background: white;
+
+    padding: 100px 20px;
+
 
 }
+
+
 
 
 
 .audience h2 {
 
+
     text-align: center;
-    font-size: 38px;
+
+    font-size: 42px;
+
     font-weight: 900;
-    margin-bottom: 15px;
+
+    margin-bottom: 20px;
+
 
 }
 
 
 
+
+
 .audience-subtitle {
 
-    text-align: center;
-    max-width: 650px;
-    margin: 0 auto 45px;
 
-    font-size: 17px;
-    color: #555;
+    text-align: center;
+
+    color: #666;
+
+    font-size: 18px;
+
+    margin-bottom: 60px;
+
 
 }
 
@@ -590,17 +831,20 @@ KIT
 
 .audience-grid {
 
+
     display: grid;
 
     grid-template-columns: repeat(3, 1fr);
 
-    gap: 25px;
+    gap: 30px;
 
-    max-width: 950px;
+    max-width: 1000px;
 
     margin: auto;
 
+
 }
+
 
 
 
@@ -608,21 +852,17 @@ KIT
 .audience-card {
 
 
-    background: #fff;
+    background: #fffaf2;
 
-    border-radius: 20px;
+    padding: 40px 30px;
 
-    padding: 35px 25px;
+    border-radius: 30px;
 
     text-align: center;
 
+    border: 1px solid #eadcc8;
 
-    border: 2px solid #f1d9aa;
-
-
-    box-shadow:
-        0 10px 30px rgba(0, 0, 0, .08);
-
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .06);
 
     transition: .3s;
 
@@ -635,14 +875,10 @@ KIT
 
 .audience-card:hover {
 
-
     transform: translateY(-8px);
 
-
-    border-color: #ff7417;
-
-
 }
+
 
 
 
@@ -650,29 +886,27 @@ KIT
 .audience-icon {
 
 
-    width: 80px;
+    width: 90px;
 
-    height: 80px;
+    height: 90px;
 
-    background: #fff0d8;
+    margin: 0 auto 25px;
+
+    background: #fff0d6;
 
     border-radius: 50%;
 
-
     display: flex;
-
-    align-items: center;
 
     justify-content: center;
 
+    align-items: center;
 
-    font-size: 40px;
-
-
-    margin: 0 auto 20px;
+    font-size: 45px;
 
 
 }
+
 
 
 
@@ -680,17 +914,15 @@ KIT
 .audience-card h3 {
 
 
-    font-size: 24px;
+    font-size: 25px;
 
     font-weight: 900;
 
-    margin-bottom: 12px;
-
-
-    color: #111;
+    margin-bottom: 15px;
 
 
 }
+
 
 
 
@@ -698,11 +930,9 @@ KIT
 .audience-card p {
 
 
-    font-size: 15px;
+    color: #666;
 
-    line-height: 1.6;
-
-    color: #555;
+    font-size: 16px;
 
 
 }
@@ -713,65 +943,40 @@ KIT
 
 
 
-@media(max-width:768px) {
 
-
-    .audience h2 {
-
-        font-size: 28px;
-
-    }
-
-
-    .audience-grid {
-
-        grid-template-columns: 1fr;
-
-    }
-
-
-}
-
-
-
-/* =========================
-CARROSSEL DEPOIMENTOS
-========================= */
+/* =====================================
+   DEPOIMENTOS
+===================================== */
 
 
 .depoimentos {
 
-    background: #f8ebd0;
 
-    padding: 60px 20px;
+    background: #fffaf2;
+
+    padding: 100px 20px;
+
 
 }
 
 
-
-.depoimentos-container {
-
-    max-width: 900px;
-
-    margin: auto;
-
-    text-align: center;
-
-}
 
 
 
 .depoimentos h2 {
 
-    font-size: 32px;
+
+    text-align: center;
+
+    font-size: 38px;
 
     font-weight: 900;
 
-    color: #111;
+    margin-bottom: 50px;
 
-    margin-bottom: 35px;
 
 }
+
 
 
 
@@ -784,310 +989,260 @@ CARROSSEL DEPOIMENTOS
 
 
 
+
+
 .carousel-track {
+
 
     display: flex;
 
-    gap: 20px;
+    gap: 30px;
 
     transition: .5s;
 
+
 }
+
+
 
 
 
 .depoimento-img {
 
-    min-width: 250px;
+
+    min-width: 300px;
 
     background: white;
 
-    padding: 10px;
+    padding: 15px;
 
-    border-radius: 15px;
+    border-radius: 25px;
 
-    box-shadow:
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
 
-        0 8px 20px rgba(0, 0, 0, .15);
 
 }
+
+
 
 
 
 .depoimento-img img {
 
-    width: 100%;
 
-    display: block;
-
-    border-radius: 10px;
-
-}
-
-
-
-
-.dots {
-
-    margin-top: 25px;
-
-}
-
-
-
-.dots span {
-
-    display: inline-block;
-
-    width: 10px;
-
-    height: 10px;
-
-    background: #ccc;
-
-    border-radius: 50%;
-
-    margin: 5px;
-
-}
-
-
-
-.dots .active {
-
-    background: #f47721;
-
-}
-
-
-
-
-@media(max-width:600px) {
-
-
-    .depoimento-img {
-
-        min-width: 85%;
-
-    }
-
-
-    .depoimentos h2 {
-
-        font-size: 25px;
-
-    }
+    border-radius: 18px;
 
 
 }
-
-
-
-
-
 
 /* =====================================
- OFERTA ESTILO SALES PAGE
+   OFERTA PREMIUM
 ===================================== */
 
 
 .offer {
 
-    background: #f8ebd0;
-    padding: 70px 20px;
+    background: #fffaf2;
+
+    padding: 110px 20px;
 
 }
+
+
 
 
 
 .offer h2 {
 
+
     text-align: center;
-    font-size: 32px;
+
+    font-size: 42px;
+
     font-weight: 900;
 
+    color: #333;
+
+    margin-bottom: 20px;
+
+
 }
+
 
 
 
 .offer-alert {
 
+
     text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    margin-bottom: 30px;
+
+    color: #777;
+
+    font-size: 17px;
+
+    margin-bottom: 60px;
+
 
 }
+
 
 
 
 
 .offer-boxes {
 
+
     display: flex;
+
     justify-content: center;
+
     align-items: flex-start;
-    gap: 25px;
+
+    gap: 35px;
+
 
 }
+
 
 
 
 
 .offer-card {
 
+
     background: white;
-    width: 360px;
 
-    border: 2px solid #222;
+    width: 380px;
 
-    padding: 25px;
+    padding: 40px 35px;
+
+    border-radius: 35px;
 
     text-align: center;
 
+    border: 1px solid #eadcc8;
+
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .08);
+
     position: relative;
 
-    box-shadow: 0 8px 20px rgba(0, 0, 0, .12);
 
 }
+
 
 
 
 
 .offer-title {
 
-    background: #ff7417;
-
-    color: white;
 
     display: inline-block;
 
-    padding: 8px 18px;
+    background: #fff0d6;
+
+    color: #df7922;
+
+    padding: 10px 25px;
+
+    border-radius: 50px;
 
     font-weight: 900;
 
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 
-    font-size: 18px;
 
 }
 
 
 
 
-.old-price {
 
-    color: #ff0000;
+.offer-card .old-price {
 
-    text-decoration: line-through;
 
-    font-weight: 700;
+    color: #d9534f;
+
+    font-size: 15px;
+
 
 }
+
+
 
 
 
 .offer-card h3 {
 
-    font-size: 45px;
 
-    color: #ff5a00;
+    font-size: 55px;
+
+    color: #e87821;
 
     font-weight: 900;
 
-    margin: 10px 0;
+    margin: 15px 0;
+
 
 }
+
 
 
 
 
 .offer-card ul {
 
-    text-align: left;
 
     list-style: none;
 
-    padding: 0;
+    text-align: left;
 
-    margin: 25px 0;
+    margin: 35px 0;
+
 
 }
+
+
 
 
 
 .offer-card li {
 
-    font-size: 14px;
 
-    padding: 8px 0;
+    padding: 12px 0;
 
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 1px solid #eee;
 
-    font-weight: 600;
+    font-size: 15px;
+
+    color: #555;
+
 
 }
+
+
 
 
 
 .disabled {
 
-    color: #999;
+    color: #aaa;
 
 }
 
 
-
-
-.offer-card button {
-
-    width: 100%;
-
-    padding: 17px;
-
-    border: none;
-
-    background: #2c8b12;
-
-    color: white;
-
-    font-weight: 900;
-
-    font-size: 15px;
-
-    cursor: pointer;
-
-    box-shadow: 0 5px 0 #176b08;
-
-}
-
-
-
-
-.small-text {
-
-    font-size: 12px;
-
-    margin-top: 15px;
-
-}
-
-
-
-
-
-
-
-/* PLANO COMPLETO */
 
 
 .featured-offer {
 
-    border: 4px solid #ffd000;
 
-    transform: scale(1.03);
+    border: 3px solid #f6c453;
+
+    transform: translateY(-15px);
+
 
 }
+
+
 
 
 
@@ -1102,116 +1257,134 @@ CARROSSEL DEPOIMENTOS
 
     transform: translateX(-50%);
 
+    background: #f6b84a;
 
-    background: #ff7417;
+    color: #513300;
 
-    color: white;
+    padding: 10px 25px;
 
+    border-radius: 50px;
 
-    padding: 7px 20px;
-
-    font-size: 12px;
+    font-size: 13px;
 
     font-weight: 900;
 
+
 }
+
+
 
 
 
 .expert {
 
 
-    background: #ff7417;
+    background: #fff0d6;
 
-    color: white;
+    color: #df7922;
 
-    font-size: 12px;
+    padding: 12px;
 
-    padding: 8px;
+    border-radius: 15px;
 
     font-weight: 800;
 
-    margin-bottom: 15px;
+    font-size: 13px;
+
+    margin-bottom: 20px;
+
 
 }
+
 
 
 
 
 .security {
 
+
     display: flex;
 
-    gap: 5px;
+    gap: 10px;
 
-    margin-top: 15px;
+    margin-top: 25px;
+
 
 }
+
+
 
 
 
 .security div {
 
+
     flex: 1;
 
-    border: 1px solid #222;
+    background: #fffaf2;
 
-    padding: 10px;
+    border-radius: 15px;
 
-    font-size: 11px;
+    padding: 15px 8px;
+
+    font-size: 12px;
 
     font-weight: 700;
 
-}
-
-
-
-
-
-
-@media(max-width:768px) {
-
-
-    .offer-boxes {
-
-        flex-direction: column;
-
-        align-items: center;
-
-    }
-
-
-
-    .offer-card {
-
-        width: 100%;
-
-    }
-
-
-
-    .featured-offer {
-
-        transform: none;
-
-    }
+    border: 1px solid #eadcc8;
 
 
 }
+
+
 
 
 
 
 /* =====================================
-GARANTIA
+   GARANTIA
 ===================================== */
 
 
 .guarantee {
 
+
     background: white;
-    padding: 50px 20px;
+
+    padding: 90px 20px;
+
     text-align: center;
+
+
+}
+
+
+
+
+
+.guarantee h2 {
+
+
+    font-size: 38px;
+
+    font-weight: 900;
+
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+
+.guarantee p {
+
+
+    color: #666;
+
+    font-size: 18px;
+
 
 }
 
@@ -1221,55 +1394,99 @@ GARANTIA
 
 
 
-
 /* =====================================
-FAQ
+   FAQ
 ===================================== */
 
 
 .faq {
 
-    padding: 60px 0;
+
+    background: #fffaf2;
+
+    padding: 100px 20px;
+
 
 }
+
+
+
 
 
 .faq h2 {
 
+
     text-align: center;
-    font-size: 32px;
+
+    font-size: 40px;
+
+    font-weight: 900;
+
+    margin-bottom: 50px;
+
 
 }
+
+
 
 
 
 .faq-item {
 
-    max-width: 650px;
-    margin: 15px auto;
+
+    max-width: 750px;
+
+    margin: 18px auto;
+
 
 }
+
+
 
 
 
 .faq-item button {
 
+
     width: 100%;
+
     background: white;
+
     border: none;
-    padding: 18px;
+
+    border-radius: 18px;
+
+    padding: 22px;
+
+    text-align: left;
+
+    font-size: 17px;
+
     font-weight: 800;
+
     cursor: pointer;
 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
+
+
 }
+
+
 
 
 
 .faq-item p {
 
+
     background: white;
-    padding: 18px;
-    display: none;
+
+    margin-top: 5px;
+
+    padding: 22px;
+
+    border-radius: 0 0 18px 18px;
+
+    color: #666;
 
 }
 
@@ -1277,23 +1494,52 @@ FAQ
 
 
 
-
-
 /* =====================================
-FOOTER
+   FOOTER
 ===================================== */
 
 
 footer {
 
-    background: #111;
+
+    background: #2d2d2d;
+
     color: white;
+
     text-align: center;
-    padding: 40px;
+
+    padding: 60px 20px;
+
 
 }
 
 
+
+
+
+footer h3 {
+
+
+    font-size: 28px;
+
+    margin-bottom: 15px;
+
+
+}
+
+
+
+
+
+footer p {
+
+
+    color: #ddd;
+
+    margin: 10px;
+
+
+}
 
 
 
@@ -1302,118 +1548,43 @@ footer {
 
 
 /* =====================================
-MOBILE
+   POPUP SOCIAL PROOF
 ===================================== */
-
-
-@media(max-width:768px) {
-
-
-    .hero h1 {
-
-        font-size: 30px;
-
-    }
-
-
-
-    .hero-subtitle {
-
-        font-size: 15px;
-
-    }
-
-
-
-    .kit-grid,
-    .audience-grid,
-    .testimonial-grid {
-
-        grid-template-columns: 1fr;
-
-    }
-
-
-
-    .plans {
-
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-
-
-    .plan {
-
-        width: 100%;
-
-    }
-
-
-
-    .how h2,
-    .content-kit h2,
-    .bonus h2,
-    .offer h2 {
-
-        font-size: 26px;
-
-    }
-
-
-
-    .price-area h2 {
-
-        font-size: 36px;
-
-    }
-
-
-}
-
-/* ===============================
-POPUP SOCIAL PROOF
-================================ */
 
 
 .purchase-popup {
 
+
     position: fixed;
 
-    bottom: 20px;
+    bottom: 25px;
 
-    left: 20px;
+    left: 25px;
 
-    width: 280px;
+    width: 310px;
 
     background: white;
 
-    border: 2px solid #222;
+    border-radius: 25px;
 
-    border-radius: 10px;
-
-    padding: 15px;
+    padding: 18px;
 
     display: flex;
 
     align-items: center;
 
-    gap: 12px;
+    gap: 15px;
 
-    box-shadow:
-        0 8px 25px rgba(0, 0, 0, .25);
-
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
 
     z-index: 9999;
-
 
     transform: translateX(-120%);
 
     transition: .5s;
 
-
 }
+
 
 
 .purchase-popup.active {
@@ -1426,30 +1597,21 @@ POPUP SOCIAL PROOF
 
 .popup-icon {
 
-    font-size: 28px;
+    font-size: 32px;
 
 }
 
-
-
-.popup-content {
-
-    flex: 1;
-
-}
 
 
 .popup-content strong {
 
-    font-size: 14px;
+    font-size: 15px;
 
 }
 
 
 
 .popup-content p {
-
-    margin: 2px 0;
 
     font-size: 13px;
 
@@ -1473,9 +1635,9 @@ POPUP SOCIAL PROOF
 
     background: none;
 
-    font-size: 18px;
-
     cursor: pointer;
+
+    font-size: 22px;
 
 }
 
@@ -1483,15 +1645,685 @@ POPUP SOCIAL PROOF
 
 
 
-@media(max-width:600px) {
+
+/* =====================================
+   RESPONSIVO MOBILE
+===================================== */
+
+
+@media(max-width:768px) {
+
+
+    .container {
+
+        width: 92%;
+
+    }
+
+
+    .hero {
+
+        padding: 45px 0 60px;
+
+    }
+
+
+
+    .hero h1 {
+
+        font-size: 32px;
+
+    }
+
+
+
+    .hero-subtitle {
+
+        font-size: 16px;
+
+    }
+
+
+
+    .product-image {
+
+        max-width: 420px;
+
+    }
+
+
+
+    .price-area h2 {
+
+        font-size: 40px;
+
+    }
+
+
+
+    .how h2,
+    .content-kit h2,
+    .audience h2,
+    .offer h2,
+    .faq h2 {
+
+
+        font-size: 30px;
+
+
+    }
+
+
+
+    .kit-grid,
+    .audience-grid {
+
+
+        grid-template-columns: 1fr;
+
+
+    }
+
+
+
+    .offer-boxes {
+
+
+        flex-direction: column;
+
+        align-items: center;
+
+
+    }
+
+
+
+    .offer-card {
+
+
+        width: 100%;
+
+    }
+
+
+
+    .featured-offer {
+
+
+        transform: none;
+
+    }
+
+
+
+    .kit-wrapper {
+
+
+        padding: 30px 20px;
+
+
+    }
+
+
 
     .purchase-popup {
+
 
         left: 10px;
 
         bottom: 15px;
 
-        width: 270px;
+        width: 290px;
+
+
+    }
+
+
+
+    .security {
+
+
+        flex-direction: column;
+
+
+    }
+
+
+}
+
+/* ==============================
+   POPUP UPGRADE KIT COMPLETO
+============================== */
+
+
+.upgrade-popup{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.55);
+
+    display:none;
+
+    align-items:center;
+
+    justify-content:center;
+
+    z-index:99999;
+
+    padding:20px;
+
+}
+
+
+
+.upgrade-popup.active{
+
+    display:flex;
+
+}
+
+
+
+.upgrade-box{
+
+
+    background:white;
+
+    max-width:430px;
+
+    width:100%;
+
+    border-radius:30px;
+
+    padding:35px;
+
+    text-align:center;
+
+    position:relative;
+
+    box-shadow:0 25px 70px rgba(0,0,0,.3);
+
+
+}
+
+
+
+.close-upgrade{
+
+
+    position:absolute;
+
+    right:20px;
+
+    top:15px;
+
+    border:none;
+
+    background:none;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
+
+
+
+.upgrade-box h2{
+
+
+    font-size:26px;
+
+    font-weight:900;
+
+    color:#333;
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.upgrade-highlight{
+
+
+    color:#e87821;
+
+    font-weight:800;
+
+
+}
+
+
+
+.upgrade-price{
+
+
+    margin:25px 0;
+
+
+}
+
+
+
+.upgrade-price span{
+
+
+    display:block;
+
+    text-decoration:line-through;
+
+    color:#999;
+
+
+}
+
+
+
+.upgrade-price strong{
+
+
+    font-size:50px;
+
+    color:#35a853;
+
+    font-weight:900;
+
+
+}
+
+
+
+.upgrade-box ul{
+
+
+    text-align:left;
+
+    list-style:none;
+
+    margin:25px 0;
+
+
+}
+
+
+
+.upgrade-box li{
+
+
+    padding:8px 0;
+
+}
+
+
+
+.upgrade-button{
+
+
+    display:block;
+
+    background:#35a853;
+
+    color:white;
+
+    padding:18px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-weight:900;
+
+}
+
+
+
+.continue-basic{
+
+
+    margin-top:15px;
+
+    background:none;
+
+    border:none;
+
+    color:#777;
+
+    cursor:pointer;
+
+    text-decoration:underline;
+
+
+}
+
+/* ==============================
+   VSL VERTICAL 9:16
+============================== */
+
+
+.vsl-section{
+
+    background:#ffffff;
+
+    padding:100px 20px;
+
+    text-align:center;
+
+}
+
+
+
+.vsl-section h2{
+
+    max-width:850px;
+
+    margin:auto;
+
+    font-size:40px;
+
+    line-height:1.2;
+
+    font-weight:900;
+
+    color:#333;
+
+}
+
+
+
+.vsl-subtitle{
+
+    max-width:650px;
+
+    margin:25px auto 50px;
+
+    color:#666;
+
+    font-size:18px;
+
+}
+
+
+
+
+/* VIDEO 9:16 */
+
+
+.video-container{
+
+
+    position:relative;
+
+    width:100%;
+
+    max-width:430px;
+
+    aspect-ratio:9 / 16;
+
+    margin:auto;
+
+    background:#000;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    box-shadow:
+
+    0 25px 60px rgba(0,0,0,.18);
+
+
+}
+
+
+
+
+.video-container video{
+
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+
+}
+
+
+
+
+
+/* BOTÃO INICIAL SOBRE O VÍDEO */
+
+
+.play-overlay{
+
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(0,0,0,.25);
+
+    z-index:2;
+
+
+}
+
+
+
+
+
+.play-overlay button{
+
+
+    background:#ff8c42;
+
+    color:white;
+
+    border:none;
+
+    padding:20px 35px;
+
+    border-radius:50px;
+
+    font-size:18px;
+
+    font-weight:900;
+
+    cursor:pointer;
+
+    box-shadow:
+
+    0 15px 35px rgba(255,140,66,.45);
+
+    animation:pulsePlay 1.8s infinite;
+
+
+}
+
+
+
+
+
+.play-overlay button:hover{
+
+
+    transform:scale(1.05);
+
+
+}
+
+
+
+
+
+@keyframes pulsePlay{
+
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+
+    50%{
+
+        transform:scale(1.08);
+
+    }
+
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+
+}
+
+
+
+
+
+.vsl-section .main-button{
+
+
+    margin-top:45px;
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+    .vsl-section{
+
+        padding:70px 15px;
+
+    }
+
+
+
+    .vsl-section h2{
+
+        font-size:30px;
+
+    }
+
+
+
+    .vsl-subtitle{
+
+        font-size:16px;
+
+    }
+
+
+
+    .video-container{
+
+        max-width:100%;
+
+        border-radius:20px;
+
+    }
+
+
+}
+
+/* =====================================
+   BOTÃO FIXO MOBILE
+===================================== */
+
+
+.mobile-buy-button{
+
+    display:none;
+
+    position:fixed;
+
+    bottom:15px;
+
+    left:15px;
+
+    right:15px;
+
+    background:#35a853;
+
+    color:white;
+
+    text-align:center;
+
+    padding:16px;
+
+    border-radius:50px;
+
+    font-size:16px;
+
+    font-weight:900;
+
+    text-decoration:none;
+
+    z-index:9998;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+
+
+
+
+@media(max-width:768px){
+
+
+    .mobile-buy-button.active{
+
+        display:block;
+
+        animation:buttonUp .4s ease;
+
+    }
+
+
+}
+
+
+
+@keyframes buttonUp{
+
+
+    from{
+
+        transform:translateY(100px);
+
+    }
+
+
+    to{
+
+        transform:translateY(0);
 
     }
 
