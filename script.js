@@ -60,7 +60,7 @@ faqButtons.forEach((button)=>{
 // POPUP UPGRADE PLANO BÁSICO
 // =================================
 
-
+/*
 const basicButton = document.querySelector(".basic-offer-btn");
 
 let basicCheckout =
@@ -96,19 +96,6 @@ function continueBasic(){
 
 
 
-function closeUpgrade(){
-
-
-    document
-    .getElementById("upgradePopup")
-    .classList.remove("active");
-
-
-}
-
-
-
-
 function playVSL(){
 
     const video = document.getElementById("vslVideo");
@@ -120,7 +107,7 @@ function playVSL(){
 
     video.play();
 
-}
+}*/
 
 // =================================
 // BOTÃO FIXO APÓS SEÇÃO DO KIT
