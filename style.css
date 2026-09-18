@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* =====================================================
    GRAFISMO FONÉTICO - EDUCAÇÃO KIDS
    CSS PARTE 1/3
@@ -652,4 +653,660 @@ transform:translateY(-15px);
 
 
 
+=======
+/* =====================================================
+   GRAFISMO FONÉTICO - EDUCAÇÃO KIDS
+   CSS PARTE 1/3
+===================================================== */
+
+
+/* ================= RESET ================= */
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    color:#333;
+
+    background:#fff;
+
+}
+
+
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+
+ul{
+
+    list-style:none;
+
+}
+
+
+
+
+
+
+
+
+/* ================= CORES ================= */
+
+
+:root{
+
+
+    --verde:#55c96a;
+
+    --verde-escuro:#32aa4a;
+
+    --amarelo:#ffd83d;
+
+    --amarelo-claro:#fff5bd;
+
+    --azul:#eaf7ff;
+
+    --rosa:#ffeaf3;
+
+    --cinza:#666;
+
+    --texto:#333;
+
+    --branco:#fff;
+
+
+}
+
+
+
+
+
+
+
+/* ================= ESTRUTURA ================= */
+
+
+.container{
+
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+
+}
+
+
+
+
+section{
+
+
+    padding:80px 0;
+
+
+}
+
+
+
+.titulo{
+
+
+    text-align:center;
+
+    max-width:750px;
+
+    margin:0 auto 50px;
+
+
+}
+
+
+
+
+.titulo span{
+
+
+    display:inline-block;
+
+    background:#e9ffe9;
+
+    color:var(--verde-escuro);
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:18px;
+
+
+}
+
+
+
+
+
+.titulo h2{
+
+
+    font-size:42px;
+
+    line-height:1.2;
+
+    color:#222;
+
+    font-weight:800;
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+.titulo p{
+
+
+    color:var(--cinza);
+
+    line-height:1.7;
+
+}
+
+
+
+
+
+
+
+
+
+/* ================= HEADER ================= */
+
+
+
+.topo{
+
+
+    position:absolute;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:20;
+
+    padding:25px 0;
+
+
+}
+
+
+
+
+.logo img{
+
+
+    width:180px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ================= HERO ================= */
+
+
+
+.hero{
+
+
+    padding-top:150px;
+
+    background:
+
+    linear-gradient(
+
+    180deg,
+
+    #fffbea,
+
+    #ffffff
+
+    );
+
+
+}
+
+
+
+
+.hero-container{
+
+
+    display:grid;
+
+    grid-template-columns:
+
+    1fr 1fr;
+
+
+    align-items:center;
+
+    gap:50px;
+
+
+}
+
+
+
+
+
+
+
+.hero-texto h1{
+
+
+    font-size:58px;
+
+    line-height:1.1;
+
+    font-weight:800;
+
+    color:#222;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.hero-texto p{
+
+
+    font-size:18px;
+
+    color:#666;
+
+    line-height:1.8;
+
+    max-width:520px;
+
+    margin-bottom:35px;
+
+
+}
+
+
+
+
+
+.btn{
+
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:var(--verde);
+
+    color:#fff;
+
+    padding:18px 35px;
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+    box-shadow:
+
+    0 12px 25px rgba(85,201,106,.25);
+
+
+}
+
+
+
+
+
+.btn:hover{
+
+
+    background:var(--verde-escuro);
+
+    transform:translateY(-3px);
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ================= GARANTIAS HERO ================= */
+
+
+.garantias{
+
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    margin-top:35px;
+
+
+}
+
+
+
+
+.garantias div{
+
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#555;
+
+    font-size:15px;
+
+
+}
+
+
+
+.garantias img{
+
+
+    width:22px;
+
+
+}
+
+
+
+
+
+
+
+
+.hero-produto{
+
+
+    text-align:center;
+
+    position:relative;
+
+
+}
+
+
+
+
+.hero-produto img{
+
+
+    max-width:520px;
+
+    margin:auto;
+
+    animation:subir 4s infinite ease-in-out;
+
+
+}
+
+
+
+
+
+
+
+@keyframes subir{
+
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ================= FAIXA DE DESTAQUE ================= */
+
+
+
+.faixa{
+
+
+    background:
+
+    var(--amarelo-claro);
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+.faixa h2{
+
+
+    font-size:36px;
+
+    max-width:900px;
+
+    margin:auto;
+
+    line-height:1.3;
+
+    color:#333;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ================= MÉTODO ================= */
+
+
+
+.metodo{
+
+
+    background:#fff;
+
+
+}
+
+
+
+
+
+.metodo-grid{
+
+
+    display:grid;
+
+    grid-template-columns:
+
+    1fr 1fr;
+
+    align-items:center;
+
+    gap:60px;
+
+
+}
+
+
+
+
+.metodo-grid .imagem img{
+
+
+    border-radius:35px;
+
+    box-shadow:
+
+    0 20px 45px rgba(0,0,0,.10);
+
+
+}
+
+
+
+
+
+.texto h3{
+
+
+    font-size:38px;
+
+    line-height:1.2;
+
+    margin-bottom:20px;
+
+    color:#222;
+
+
+}
+
+
+
+
+.texto p{
+
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+.texto li{
+
+
+    margin-bottom:15px;
+
+    font-size:16px;
+
+
+}
+
+
+
+
+
+.texto li::first-letter{
+
+
+    color:var(--verde);
+
+
+}
+
+
+
+>>>>>>> 7bbac0f2539bf00e3312860fe34a7d165713c238
 /* ================= FIM CSS PARTE 1 ================= */
